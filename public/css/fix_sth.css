@@ -1,0 +1,7 @@
+.program {
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+#contact-container {
+    background-color: #f0f0f0;
+}
