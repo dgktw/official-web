@@ -94,7 +94,7 @@
 
 	/*popup menu*/
 	#popup-menu{
-		opacity: 0;
+        opacity: 0;
 		visibility: hidden;
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
@@ -104,16 +104,26 @@
 		top: 0;
 		width: 60%;
 		height: 100%;
+        transition: 1s;
 		background-color: #000;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
 	}
+
+    /* clicked popup menu button(in mobile view) */
+    .stateTwo{
+        opacity:1!important;
+        visibility: visible!important;
+        transition: 1s!important;
+    }
+/*
 	#popup-menu:target{
 		opacity: 1;
 		visibility: visible;
 	}
+*/
 }
 
 /* menu-toggle */
