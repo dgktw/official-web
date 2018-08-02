@@ -31,9 +31,7 @@
 .pj-image {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
 }
 
 .grid figure figcaption {
@@ -45,7 +43,7 @@
 	backface-visibility: hidden;
 }
 .grid figure figcaption.pj-space{
-	padding-top: 12em;
+	padding-top: 10em;
 }
 
 .grid figure figcaption::before,
